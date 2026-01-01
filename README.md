@@ -79,9 +79,9 @@ python MoneyTrackerApp.py
 
 ## 🖼️ Preview
 
-| Balance Overview | Savings Goals |
-|                  |               |
-|                  |               |
+- | Balance Overview | Savings Goals |
+- |                  |               |
+- |                  |               |
 
 ## 📄 License & Disclaimer
 

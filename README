@@ -5,39 +5,33 @@ Money Tracker Pro is a modern, desktop-first personal finance manager. Built wit
 ![Python](https://img.shields.io/badge/python-3.9+-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-purple.svg)
 
----
-
 ## ✨ Key Features
 
 ### 📊 Comprehensive Tracking
 
-* **Transaction Ledger:** Effortlessly log income and expenses.
-* **Balance Overview:** Real-time visibility of your current financial standing.
-* **Monthly Allowance:** Set a budget and track your remaining spend automatically.
+- **Transaction Ledger**: Effortlessly log income and expenses.
+- **Balance Overview**: Real-time visibility of your current financial standing.
+- **Monthly Allowance**: Set a budget and track your remaining spend automatically.
 
 ### 🎯 Automated Savings Goals
 
-* **Smart Allocation:** Assign a percentage of incoming funds to specific goals (e.g., "Emergency Fund" or "New Laptop").
-* **Visual Progress:** Real-time progress bars and deadline countdowns.
-* **Goal Logic:** Smart validation ensures total allocations never exceed 100%.
+- **Smart Allocation**: Assign a percentage of incoming funds to specific goals (e.g., "Emergency Fund" or "New Laptop").
+- **Visual Progress**: Real-time progress bars and deadline countdowns.
+- **Goal Logic**: Smart validation ensures total allocations never exceed 100%.
 
 ### 📈 Reports & Analytics
 
-* **Visual Trends:** Generate monthly balance charts using Matplotlib.
-* **Data Portability:** Export your monthly data to CSV for external analysis.
-* **Email Automation:** Schedule or manually send monthly PDF/PNG reports via SMTP.
-
----
+- **Visual Trends**: Generate monthly balance charts using Matplotlib.
+- **Data Portability**: Export your monthly data to CSV for external analysis.
+- **Email Automation**: Schedule or manually send monthly PDF/PNG reports via SMTP.
 
 ## 🛠️ Tech Stack
 
-* **Language:** Python 3.9+
-* **GUI Framework:** PySide6 (Qt for Python)
-* **Database:** SQLite3
-* **Visualization:** Matplotlib
-* **Communication:** `smtplib` / `email` (Standard Library)
-
----
+- **Language**: Python 3.9+
+- **GUI Framework**: PySide6 (Qt for Python)
+- **Database**: SQLite3
+- **Visualization**: Matplotlib
+- **Communication**: `smtplib` / `email` (Standard Library)
 
 ## 🚀 Getting Started
 
@@ -51,7 +45,8 @@ Ensure you have Python 3.9 or higher installed.
 # Clone the repository
 git clone https://github.com/F0xyN0xy/expense_tracker.git
 cd expense_tracker
-
+```
+```bash
 # Install required dependencies
 pip install PySide6 matplotlib
 
@@ -63,8 +58,6 @@ pip install PySide6 matplotlib
 python MoneyTrackerApp.py
 
 ```
-
----
 
 ## 📧 Email Configuration
 
@@ -90,9 +83,9 @@ python MoneyTrackerApp.py
 
 ## 🖼️ Preview
 
-- | Balance Overview | Savings Goals |
-- | --- | --- |
-- |  |  |
+| Balance Overview | Savings Goals |
+| --- | --- |
+|  |  |
 
 - *(Note: Replace placeholders with actual screenshots from your `/screenshots` folder!)*
 
@@ -102,4 +95,4 @@ python MoneyTrackerApp.py
 
 - Distributed under the **MIT License**. See `LICENSE` for more information.
 
-# **Disclaimer:** This tool is for educational and personal tracking purposes only. It does not constitute financial advice.
+- **Disclaimer:** This tool is for educational and personal tracking purposes only. It does not constitute financial advice.

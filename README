@@ -65,7 +65,7 @@ python MoneyTrackerApp.py
 
 ## 📧 Email Configuration
 
-To enable the automated reporting feature:
+- To enable the automated reporting feature:
 
 1. Navigate to **Reports > Settings** within the app.
 2. Enter your SMTP details (Server, Port, SSL).
@@ -76,27 +76,27 @@ To enable the automated reporting feature:
 
 ## 🗄️ Database Architecture
 
-The application uses a local `finance.db` file with the following schema:
+- The application uses a local `finance.db` file with the following schema:
 
-* `transactions`: Stores all ledger entries.
-* `goals`: Manages savings targets and percentage allocations.
-* `allowance`: Tracks your monthly budget parameters.
-* `app_settings`: Stores UI preferences and encrypted SMTP credentials.
+- * `transactions`: Stores all ledger entries.
+- * `goals`: Manages savings targets and percentage allocations.
+- * `allowance`: Tracks your monthly budget parameters.
+- * `app_settings`: Stores UI preferences and encrypted SMTP credentials.
 
 ---
 
 ## 🖼️ Preview
 
-| Balance Overview | Savings Goals |
-| --- | --- |
-|  |  |
+- | Balance Overview | Savings Goals |
+- | --- | --- |
+- |  |  |
 
-*(Note: Replace placeholders with actual screenshots from your `/screenshots` folder!)*
+- *(Note: Replace placeholders with actual screenshots from your `/screenshots` folder!)*
 
 ---
 
 ## 📄 License & Disclaimer
 
-Distributed under the **MIT License**. See `LICENSE` for more information.
+- Distributed under the **MIT License**. See `LICENSE` for more information.
 
-**Disclaimer:** This tool is for educational and personal tracking purposes only. It does not constitute financial advice.
+# **Disclaimer:** This tool is for educational and personal tracking purposes only. It does not constitute financial advice.

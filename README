@@ -1,88 +1,166 @@
-# Money Tracker Pro
+# 💰 Money Tracker Pro
 
-A modern personal finance desktop app built with PySide6 (Qt) and SQLite. Track income/expenses, manage savings goals with automatic allocations, export monthly data, preview charts, and optionally email monthly reports.
+- Money Tracker Pro is a modern personal finance desktop application built with PySide6 (Qt for Python) and SQLite.
+- It helps you track income and expenses, manage savings goals with automatic allocations, visualize monthly trends, and optionally email reports — all in a clean, dark UI.
 
-![Python](https://img.shields.io/badge/python-3.9+-blue.svg)
-![License](https://img.shields.io/badge/license-MIT-purple.svg)
 
-## Features
-- Balance tracking with income/expense entries
-- Savings goals with:
-  - Allocation percentages (auto-funding on income)
-  - Progress bars, deadlines, and completion notifications
-- Monthly allowance auto-apply
-- Reporting:
-  - Export current month to CSV
-  - Preview monthly balance chart (PNG via Matplotlib)
-  - Email monthly report (with optional auto-send on startup)
-- Dark, minimal UI
 
-## Screenshots
-- Balance card, goal cards, reports toolbar (export/preview/email/settings)
-- Chart: balance trend for the current month
 
-## Tech Stack
-- Python 3.9+
-- PySide6 (Qt for Python)
-- SQLite3 (built-in)
-- Matplotlib
-- smtplib/email (built-in)
+## ✨ Features
+## 📊 Finance Tracking
 
-## Installation
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/F0xyN0xy/expense_tracker.git
-   cd expense_tracker
-   ```
+- Track income and expense transactions
 
-Copy
+- Always-visible balance overview
 
-Insert
+- Monthly allowance with automatic application
 
-Install dependencies:
+🎯 Savings Goals
+
+Create multiple savings goals with:
+
+Allocation percentages (auto-funded on income)
+
+Progress bars and deadlines
+
+Completion notifications
+
+Optional initial funding
+
+Total allocations across goals must not exceed 100%
+
+📈 Reports & Exports
+
+Export current month data to CSV
+
+Preview monthly balance chart (PNG, generated with Matplotlib)
+
+Email monthly finance reports (manual or automatic)
+
+📧 Email Reports
+
+Send monthly summaries with attached charts
+
+Optional auto-send on app startup
+
+SMTP settings configurable in-app
+
+🖤 UI
+
+Dark, minimal, distraction-free design
+
+Desktop-first layout (Qt)
+
+🖼️ Screenshots
+
+Balance overview card
+
+Savings goal cards with progress
+
+Reports toolbar (Export / Preview / Email / Settings)
+
+Monthly balance trend chart
+
+(Screenshots can be added to a /screenshots folder and linked here.)
+
+🛠️ Tech Stack
+
+Python 3.9+
+
+PySide6 (Qt for Python)
+
+SQLite3 (built-in)
+
+Matplotlib
+
+smtplib / email (built-in)
+
+📦 Installation
+1️⃣ Clone the repository
+git clone https://github.com/F0xyN0xy/expense_tracker.git
+cd expense_tracker
+
+2️⃣ Install dependencies
 pip install PySide6 matplotlib
 
-Copy
 
-Insert
+sqlite3, smtplib, and email are included with Python.
 
-(sqlite3, smtplib, and email ship with Python.)
-Usage
-Run the app:
+🚀 Usage
+
+Run the application:
 
 python MoneyTrackerApp.py
 
-Copy
+Core Actions
 
-Insert
+Add Money / − Spend Money → Create transactions
 
-Add Money / − Spend Money: create transactions
-Savings Goals:
-Add Goal: name, target, allocation %, deadline, optional initial funding
-Total allocations across goals must be ≤ 100%
-Reports:
-Export Month: writes finance_YYYY_MM.csv
-Preview Chart: saves balance_YYYY_MM.png
-Send Report: emails current month summary and chart
-Settings: configure SMTP and auto-send
-Email Setup
-Open Reports → Settings and provide:
+Savings Goals
 
-SMTP server/port and SSL toggle
-Sender email and app password
+Add a goal with name, target, allocation %, deadline
+
+Optional initial funding
+
+Reports
+
+Export Month → finance_YYYY_MM.csv
+
+Preview Chart → balance_YYYY_MM.png
+
+Send Report → Emails monthly summary + chart
+
+Settings
+
+Configure SMTP and auto-send options
+
+📧 Email Setup
+
+Open Reports → Settings and configure:
+
+SMTP server & port
+
+SSL on/off
+
+Sender email + app password
+
 Recipient email
-Auto-send monthly report on startup (optional)
-Note: Use an app password (e.g., Gmail App Password) rather than your main email password.
 
-Data Storage
+Optional: auto-send monthly report on startup
+
+⚠️ Important:
+Use an app password (e.g. Gmail App Password), not your main email password.
+
+🗄️ Data Storage
+
 SQLite database file: finance.db
-Tables: transactions, goals, allowance, app_settings
-Automatic migrations for goals schema when needed
-Security
-Email credentials are stored in the local database. Protect your machine and database file.
-Consider environment-based secrets for production use.
-License
-MIT. See LICENSE for details.
 
-Disclaimer
-This tool is for personal finance tracking and educational purposes. No warranty is provided.
+Tables:
+
+transactions
+
+goals
+
+allowance
+
+app_settings
+
+Automatic schema migrations for goals when required
+
+🔐 Security Notes
+
+Email credentials are stored locally in the database
+
+Protect your device and finance.db file
+
+For production use, consider environment-based secrets
+
+📄 License
+
+This project is licensed under the MIT License.
+See the LICENSE file for details.
+
+⚠️ Disclaimer
+
+This application is intended for personal finance tracking and educational use only.
+No financial advice or warranty is provided.

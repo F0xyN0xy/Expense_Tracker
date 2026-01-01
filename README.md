@@ -79,10 +79,10 @@ python MoneyTrackerApp.py
 
 ## 🖼️ Preview
 
-- | Balance Overview                                                           |               |
-- | ![alt text](<Money Tracker Pro 01.01.2026 13_47_08-1.PNG>)                 |               |
+- | Balance Overview|
+- | ![alt text](<Money Tracker Pro 01.01.2026 13_47_08-1.PNG>)|
 - | Savings Goals |
-- | ![alt text](<Money Tracker Pro 01.01.2026 13_47_09.PNG>)                   |               |
+- ![alt text](<Money Tracker Pro 01.01.2026 13_47_09.PNG>)
 
 ## 📄 License & Disclaimer
 

@@ -68,8 +68,6 @@ python MoneyTrackerApp.py
 3. **Security Tip:** Use an **App Password** (e.g., via Google Account Security) rather than your primary login password.
 4. Toggle "Auto-send" to receive a report every time you open the app at the start of a new month.
 
----
-
 ## 🗄️ Database Architecture
 
 - The application uses a local `finance.db` file with the following schema:
@@ -79,17 +77,11 @@ python MoneyTrackerApp.py
 - * `allowance`: Tracks your monthly budget parameters.
 - * `app_settings`: Stores UI preferences and encrypted SMTP credentials.
 
----
-
 ## 🖼️ Preview
 
 | Balance Overview | Savings Goals |
-| ![alt text](<Money Tracker Pro 01.01.2026 13_47_08.png>) | --- |
+| ![alt text](<Money Tracker Pro 01.01.2026 13_47_08-1.PNG>) | ![alt text](<Money Tracker Pro 01.01.2026 13_47_09.PNG>) |
 |  |  |
-
-- *(Note: Replace placeholders with actual screenshots from your `/screenshots` folder!)*
-
----
 
 ## 📄 License & Disclaimer
 

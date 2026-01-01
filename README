@@ -1,6 +1,9 @@
 # 💰 Money Tracker Pro
 
-**Money Tracker Pro** is a modern, desktop-first personal finance manager. Built with Python and PySide6, it offers a distraction-free, dark-themed environment to monitor your net worth, automate savings, and generate visual financial reports.
+Money Tracker Pro is a modern, desktop-first personal finance manager. Built with Python and PySide6, it offers a distraction-free, dark-themed environment to monitor your net worth, automate savings, and generate visual financial reports.
+
+![Python](https://img.shields.io/badge/python-3.9+-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-purple.svg)
 
 ---
 
